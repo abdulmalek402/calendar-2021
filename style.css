@@ -1,0 +1,21 @@
+.main-container{
+        height: 500px;
+       display: grid;
+       grid-template-columns: repeat(7,1fr);
+       grid-template-rows: 2em repeat(5, 0.5fr);
+       grid-gap: 1em;
+}
+.box, .day{
+        background-color: lightblue;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 10px;
+}
+.other-month{
+        background-color: lightgray;
+}
+.friday{
+        background-color: red;
+}
